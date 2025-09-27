@@ -9,7 +9,7 @@ export async function HEAD() {
         hour12: false // change to 24-hour format
     });
     console.log(`[HEALTH CHECK] Ping at ${timeInIndia}`);
-    return new Response("OK", { status: 200 });
+    return new Response(null, { status: 200 });
 }
 
 
