@@ -176,7 +176,7 @@ const StartInterview = ({params}) => {
                             onClick={handleClick}
                             >
                                 {
-                                    loading ? (
+                                    !loading ? (
                                         <>
                                             Get Feedback
                                             <ArrowRight className='h-5 w-5'/>
